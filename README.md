@@ -2,7 +2,9 @@
 
 
 ## **Overview**  
-This project requires specific dependencies to ensure smooth execution. The recommended environment is managed using **Anaconda**, and the dependencies are listed below.  
+This project requires specific dependencies to ensure smooth execution. 
+The recommended environment is managed using **Anaconda**, 
+and the dependencies are listed below.  
 
 ---
 
@@ -17,6 +19,12 @@ The following libraries and versions are required for this project:
 | SciPy    | 1.7.3   |
 | TQDM     | 4.64.1  |
 | GDAL     | 3.4.0   |
-| OSGEO    | 0.0.4   |
 
 
+![img1](img/img1.jpg)
+
+
+![img2](img/img2.jpg)
+
+
+![img3](img/img3.jpg)
