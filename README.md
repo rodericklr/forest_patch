@@ -30,8 +30,9 @@ You can run `main.py` to test the algorithm and view the results directly. All o
 Method 1 generates four result files (`test_tif/*.tif`), as shown in Figure 1, 
 while Method 2 produces two result files (`test_tif/clip/*_PR.tif`), as shown in Figure 3.
 
+---
 
-## **Method 1: Four-Directional Forest Boundary Detection**
+### **Method 1: Four-Directional Forest Boundary Detection**
 This algorithm is designed for forest edge detection in binary images representing forest distributions. 
 It calculates the distance of each forest pixel to the nearest boundary in four cardinal directions: 
 east, south, west, and north. 
@@ -41,10 +42,10 @@ It systematically scans the image, identifying non-background (forest) pixels an
 The results are output in a matrix format, 
 enabling a comprehensive quantitative analysis of forest edge features.
 
-**Figure 1**: Computation Results of Method 1
 ![img/img1.jpg](img/img1.jpg)
+**Figure 1**: Computation Results of Method 1
 
-## **Method 2: Distributed fragment connectivity identification (DFCI)**
+### **Method 2: Distributed fragment connectivity identification (DFCI)**
 The Distributed Fragment Connectivity Identification (DFCI) algorithm is designed to efficiently identify and analyze forest patches across large, 
 highly fragmented regions, such as Africa. In these landscapes, 
 fragmentation results in numerous isolated forest patches of varying sizes, 
@@ -54,9 +55,9 @@ To overcome this challenge, DFCI employs a distributed computing approach to sys
 This algorithm enables scalable and efficient analysis of forest connectivity, 
 facilitating better assessment of fragmentation patterns and ecological connectivity.
 
-**Figure 2**: Conceptual Diagram of the DFCI Algorithm
 ![img/img2.jpg](img/img2.jpg)
+**Figure 2**: Conceptual Diagram of the DFCI Algorithm
 
-**Figure 3**: Computation Results of the DFCI Algorithm
 ![img/img3.jpg](img/img3.jpg)
+**Figure 3**: Computation Results of the DFCI Algorithm
 
