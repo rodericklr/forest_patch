@@ -39,19 +39,15 @@ while **Method 2** produces two result files `test_tif/clip/*_PR.tif`, as shown 
 ---
 ## **Demo**
 ### **Method 1: Four-Directional Forest Boundary Detection**
-This algorithm is designed for forest gradient queries in binary images of forest distribution. 
-It calculates the distance of each forest pixel to the nearest border in four fundamental directions: east, south, west, and north. 
-By processing images along these four directions, 
-the algorithm precisely determines the proximity of each forest pixel to the nearest edge in its respective direction, 
-enabling a comprehensive quantitative analysis of forest edge characteristics.
+This algorithm is designed for forest gradient queries using binary images of forest distribution. It calculates the distance of each forest pixel to the nearest border in four fundamental directions: east, south, west, and north. 
+By processing images in these four directions, the algorithm determines the proximity of each forest pixel to the nearest edge in its respective direction, enabling a comprehensive quantitative analysis of forest edge features.
 
-Compared to traditional complex algorithms used for locating forest edges and internal gradient positions, 
-this approach effectively reduces computational redundancy. 
-Its streamlined design allows users to directly query gradient distances in individual directions or identify the minimum edge-to-interior gradient distance among all four directions. 
-This enhances efficiency and facilitates ecological research related to forest edge dynamics and spatial processes.
+Moreover, this method overcomes the computational redundancy caused by traditional complex algorithms for locating forest edges and internal gradient positions. 
+It allows users to efficiently query the distance to the nearest edge in a specific direction or identify the minimum edge-to-internal gradient distance among the four directions, 
+facilitating ecological process-related studies.  
 
 ![img/img1.jpg](img/img1.jpg)
-**Figure 1**: Computation Results of Method 1
+**Figure 1**: Computation Results of Method 1  
 
 ### **Method 2: Distributed fragment connectivity identification (DFCI)**
 The Distributed Fragment Connectivity Identification (DFCI) algorithm is designed to efficiently identify and analyze forest patches across large, 
@@ -64,8 +60,7 @@ This algorithm enables scalable and efficient analysis of forest connectivity,
 facilitating better assessment of fragmentation patterns and ecological connectivity.
 
 ![img/img2.jpg](img/img2.jpg)
-**Figure 2**: Conceptual Diagram of the DFCI Algorithm
-
+**Figure 2**: Conceptual Diagram of the DFCI Algorithm  
 
 
 ![img/img3.jpg](img/img3.jpg)
