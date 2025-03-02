@@ -33,8 +33,8 @@ we have prepared a **demo dataset**, a small-sized forest patch file `test_tif/f
 You can run `main.py`
 to quickly test the algorithm and visualize the results.
 All output files are stored in the `test_tif` directory. Specifically, 
-**Method 1** generates four result files `test_tif/*.tif`, as shown in **Figure 1**, 
-while **Method 2** produces two result files `test_tif/clip/*_PR.tif`, as shown in **Figure 3**.
+**Method 1** generates four result files `test_tif/*.tif`, as shown in *Figure 1*, 
+while **Method 2** produces two result files `test_tif/clip/*_PR.tif`, as shown in *Figure 3*.
 
 ---
 ## **DEMO**
