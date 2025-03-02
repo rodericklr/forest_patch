@@ -70,5 +70,5 @@ facilitating better assessment of fragmentation patterns and ecological connecti
 
 ---
 ## License
-
-This project is licensed under the **Apache License 2.0**.  
+Certain implementations within this repository are currently patent-pending.  
+Use of this code must comply with the patent clause of the **Apache 2.0 License**.
