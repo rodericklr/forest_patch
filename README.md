@@ -47,7 +47,7 @@ It allows users to efficiently query the distance to the nearest edge in a speci
 facilitating ecological process-related studies.  
 
 ![img/img1.jpg](img/img1.jpg)
-**Figure 1**: Computation Results of Method 1  
+***Figure 1: Computation Results of Method 1***  
 
 ### **Method 2: Distributed fragment connectivity identification (DFCI)**
 The Distributed Fragment Connectivity Identification (DFCI) algorithm is designed to efficiently identify and analyze forest patches across large, 
@@ -60,11 +60,11 @@ This algorithm enables scalable and efficient analysis of forest connectivity,
 facilitating better assessment of fragmentation patterns and ecological connectivity.
 
 ![img/img2.jpg](img/img2.jpg)
-**Figure 2**: Conceptual Diagram of the DFCI Algorithm  
+***Figure 2: Conceptual Diagram of the DFCI Algorithm***  
 
 
 ![img/img3.jpg](img/img3.jpg)
-**Figure 3**: Computation Results of the DFCI Algorithm
+***Figure 3: Computation Results of the DFCI Algorithm***
 
 
 ---
