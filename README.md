@@ -37,7 +37,7 @@ All output files are stored in the `test_tif` directory. Specifically,
 while **Method 2** produces two result files `test_tif/clip/*_PR.tif`, as shown in *Figure 3*.
 
 ---
-## **DEMO**
+## **Demo**
 ### **Method 1: Four-Directional Forest Boundary Detection**
 This algorithm is used for forest gradient query of binary images of forest distribution.
 It calculates the distance of each forest pixel to the nearest border in four fundamental directions: 
