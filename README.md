@@ -29,12 +29,12 @@ You may also use the latest versions if compatible.
 
 Processing large-scale forest patches requires substantial computation time.
 To simplify algorithm testing, 
-we have prepared a **demo dataset**, a small-sized forest patch file 'test_tif/forest_test.tif'.
-You can run 'main.py'
+we have prepared a **demo dataset**, a small-sized forest patch file `test_tif/forest_test.tif`.
+You can run `main.py`
 to quickly test the algorithm and visualize the results.
-All output files are stored in the 'test_tif' directory. Specifically, 
-**Method 1** generates four result files 'test_tif/*.tif', as shown in **Figure 1**, 
-while **Method 2** produces two result files 'test_tif/clip/*_PR.tif', as shown in **Figure 3**.
+All output files are stored in the `test_tif` directory. Specifically, 
+**Method 1** generates four result files `test_tif/*.tif`, as shown in **Figure 1**, 
+while **Method 2** produces two result files `test_tif/clip/*_PR.tif`, as shown in **Figure 3**.
 
 ---
 ## **DEMO**
