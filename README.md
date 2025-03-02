@@ -2,44 +2,48 @@
 
 
 ## **Overview**  
-This project requires specific dependencies to ensure smooth execution. 
-The recommended environment is managed using **Anaconda**, 
-and the dependencies are listed below.  
+This project relies on specific libraries and tools. 
+To ensure smooth execution of the code, it is recommended to use **Anaconda** for environment management.
+Below is a detailed list of dependencies along with installation commands, 
+suitable for beginners or users unfamiliar with environment setup.
 
 ---
 
 ## **Dependencies**  
 
-The following libraries and versions are required for this project:  
+The following Python libraries are required for this project, 
+with recommended stable versions listed. 
+You may also use the latest versions if compatible.
 
-| Library  | Version  |
-|----------|---------|
-| Python   | 3.9     |
-| NumPy    | 1.21.5  |
-| SciPy    | 1.7.3   |
-| TQDM     | 4.64.1  |
-| GDAL     | 3.4.0   |
+| **Library** | **Version** | **Installation Command** |
+|------------|------------|-------------------------|
+| Python     | 3.9        | Installed by default when creating the Conda environment |
+| NumPy      | 1.21.5     | `conda install numpy=1.21.5` |
+| SciPy      | 1.7.3      | `conda install scipy=1.7.3` |
+| TQDM       | 4.64.1     | `conda install tqdm=4.64.1` |
+| GDAL       | 3.4.0      | `conda install -c conda-forge gdal=3.4.0` |
 
 ---
 
 ## **How to use**
 
-Processing large-scale forest patches requires significant computation time. 
-To facilitate algorithm testing, we have provided a small-sized forest patch file `test_tif/forest_test.tif`. 
-You can run `main.py` to test the algorithm and view the results directly. All output files are stored in the `test_tif` directory. Specifically, 
-Method 1 generates four result files (`test_tif/*.tif`), as shown in Figure 1, 
-while Method 2 produces two result files (`test_tif/clip/*_PR.tif`), as shown in Figure 3.
+Processing large-scale forest patches requires substantial computation time.
+To simplify algorithm testing, 
+we have prepared a **demo dataset**, a small-sized forest patch file 'test_tif/forest_test.tif'.
+You can run 'main.py'
+to quickly test the algorithm and visualize the results.
+All output files are stored in the 'test_tif' directory. Specifically, 
+**Method 1** generates four result files 'test_tif/*.tif', as shown in **Figure 1**, 
+while **Method 2** produces two result files 'test_tif/clip/*_PR.tif', as shown in **Figure 3**.
 
 ---
-
+## **DEMO**
 ### **Method 1: Four-Directional Forest Boundary Detection**
-This algorithm is designed for forest edge detection in binary images representing forest distributions. 
-It calculates the distance of each forest pixel to the nearest boundary in four cardinal directions: 
-east, south, west, and north. 
-By processing the image in these four directions, 
-the algorithm determines the proximity of each forest pixel to the closest edge in the respective direction. 
-It systematically scans the image, identifying non-background (forest) pixels and computing their directional boundary distances. 
-The results are output in a matrix format, 
+This algorithm is used for forest gradient query of binary images of forest distribution.
+It calculates the distance of each forest pixel to the nearest border in four fundamental directions: 
+east, South, west, and north. 
+By processing images in these four directions, 
+the algorithm determines how close each forest pixel is to the nearest edge in its respective direction, 
 enabling a comprehensive quantitative analysis of forest edge features.
 
 ![img/img1.jpg](img/img1.jpg)
@@ -57,6 +61,8 @@ facilitating better assessment of fragmentation patterns and ecological connecti
 
 ![img/img2.jpg](img/img2.jpg)
 **Figure 2**: Conceptual Diagram of the DFCI Algorithm
+
+
 
 ![img/img3.jpg](img/img3.jpg)
 **Figure 3**: Computation Results of the DFCI Algorithm
