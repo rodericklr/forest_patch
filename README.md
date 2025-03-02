@@ -39,12 +39,16 @@ while **Method 2** produces two result files `test_tif/clip/*_PR.tif`, as shown 
 ---
 ## **Demo**
 ### **Method 1: Four-Directional Forest Boundary Detection**
-This algorithm is used for forest gradient query of binary images of forest distribution.
-It calculates the distance of each forest pixel to the nearest border in four fundamental directions: 
-east, South, west, and north. 
-By processing images in these four directions, 
-the algorithm determines how close each forest pixel is to the nearest edge in its respective direction, 
-enabling a comprehensive quantitative analysis of forest edge features.
+This algorithm is designed for forest gradient queries in binary images of forest distribution. 
+It calculates the distance of each forest pixel to the nearest border in four fundamental directions: east, south, west, and north. 
+By processing images along these four directions, 
+the algorithm precisely determines the proximity of each forest pixel to the nearest edge in its respective direction, 
+enabling a comprehensive quantitative analysis of forest edge characteristics.
+
+Compared to traditional complex algorithms used for locating forest edges and internal gradient positions, 
+this approach effectively reduces computational redundancy. 
+Its streamlined design allows users to directly query gradient distances in individual directions or identify the minimum edge-to-interior gradient distance among all four directions. 
+This enhances efficiency and facilitates ecological research related to forest edge dynamics and spatial processes.
 
 ![img/img1.jpg](img/img1.jpg)
 **Figure 1**: Computation Results of Method 1
